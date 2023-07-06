@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "compat-api/css": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 114",
+    "not and_ff <= 113",
+    "not chrome <= 114",
+    "not edge <= 114",
+    "not firefox <= 113",
+    "not ios_saf <= 16.5",
+    "not opera <= 99",
+    "not safari <= 16.5",
+    "not samsung <= 21",
+    "not and_chr <= 114",
+    "not and_ff <= 113",
+    "not chrome <= 114",
+    "not edge <= 114",
+    "not firefox <= 113",
+    "not ios_saf <= 16.5",
+    "not opera <= 99",
+    "not safari <= 16.5",
+    "not samsung <= 21"
+  ]
+}
